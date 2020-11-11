@@ -1,16 +1,18 @@
-# server-build
+# Building a server walk-through
+
+### server-build
 1. create a 'serve.js'
 2. 'npm init -y' to generate 'package.json'
 3. 'npm install'
 
-# build basic server
+### build basic server
 1. require express
 2. create instance of express
 3. Set the PORT (be sure to include process.env.PORT for deploying to heroku)
 4. Listen on the PORT
 5. Add middleware that will allow us to parse the incoming body on the request that has a body.
 
-# build routes
+### build routes
 - build a test route: `"/api/config"`
 
 ### View routes
